@@ -21,8 +21,7 @@ body {
 ul {
     list-style: none;
     margin: 0;
-    padding-left: 0;
-    
+   
     }
 
 a {
@@ -36,7 +35,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .container {
-    display: flex;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -45,12 +43,12 @@ h1,h2,h3,h4,h5,h6 {
     
     outline: 1px solid tomato;}
 
-    img {
+   /* img {
         display: block;
         max-width: 100%;
         height: auto;
     }
-
+*/
         
 /*Шапка сайта*/
 .page-header {
@@ -91,13 +89,7 @@ h1,h2,h3,h4,h5,h6 {
 .site-nav .link.current {
     color: var(--accent-color)
 }
-
-.main-nav  {
-    display: flex;
-    
-   
-}
-
+  
 .site-nav {
     display: flex;
     padding :0px;
@@ -143,10 +135,15 @@ h1,h2,h3,h4,h5,h6 {
 .hero {
 background-color: var(--accent-bg-color);
 text-align: center;
+padding-top: 200px;
+    padding-bottom: 200px;
+    
 }
 
 
 .hero-title {
+  padding-bottom: 30px;  
+    
    color: var(--accent-text-color);
      
     font-weight: 900;
@@ -193,6 +190,8 @@ text-align: center;
 
     display: inline-block;
     padding: 10px 32px;
+
+       
     }
     
 .hero-button:hover,
@@ -245,9 +244,7 @@ text-align: center;
 /*Чем мы занимаемся*/
 .example {
     background-color: coral;}
-
-    
-    
+   
 
 .example-title {
  margin-bottom: 50px;
@@ -261,12 +258,12 @@ text-align: center;
     letter-spacing: 0.03em;
     text-align: center;
 }
-.example-list {
-display: flex;
-}
+.example-list {}
+
+
     
 .example-list .item {
-
+display: flex;
 }
    
     
