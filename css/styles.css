@@ -155,12 +155,8 @@ text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase; 
 
-    
-
     }       
   
-    
-
 /*Кнопки по умолчанию и на странице Портфолио*/
 .button {
     color: var(--primary-text-color);
@@ -243,11 +239,8 @@ text-align: center;
     .feature-list .item {
     color: var(--secondary-text-color);
     line-height: 1.71; 
-    flex-basis: calc((100% - 90px) / 4);
-    
-    
-    
-}
+    flex-basis: calc((100% - 90px) / 4);    
+    }
 
 /*Чем мы занимаемся*/
 .example {
@@ -256,23 +249,22 @@ text-align: center;
     
 }
 .example-title {
-      
+ margin-bottom: 50px;
+
+      background-color: aquamarine;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-align: center;
 }
-/*.example-list {
-    display: flex;
-    gap: 30px;
-    width: calc((100% - 60px) / 3)}*/
+.example-list {
 
-
+}
+    
 .example-list .item {
-    display: flex;
-    gap: 30px;
-    width: calc((100% - 60px) / 3)
-    }
+
+}
    
     
 /*Наша команда*/
