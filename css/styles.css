@@ -145,19 +145,6 @@ background-color: var(--accent-bg-color);
 text-align: center;
 }
 
-/*.hero-div {
-    display: inline-block;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-   
-
-    outline: 1px solid tomato;
-    background-color: purple
-    
-}*/
 
 .hero-title {
    color: var(--accent-text-color);
