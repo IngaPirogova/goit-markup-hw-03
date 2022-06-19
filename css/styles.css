@@ -49,8 +49,11 @@ h1,h2,h3,h4,h5,h6, p {
     background: lawngreen;
     
 }
-
+    
 .logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
     
     color: var(--primary-text-color);
     font-family: 'Raleway', sans-serif ;
@@ -67,26 +70,24 @@ h1,h2,h3,h4,h5,h6, p {
 /* Навигация сайта */
 .main-nav {
     display: flex;
-    align-items: center;}
    
-
- 
-.site-nav {
-    display: flex;    
-     
    }
+   
+.site-nav {
+    display: flex; 
+    padding-left: 0; 
+    
+}
 
 .site-nav .item {
-    margin-right: 50px;
-    
-    
+    margin-right: 50px;     
 
     background-color: aquamarine;
 }
 
 .site-nav .item + .item {
     margin-left: 50px;
-    background-color: teal;
+    
 }
 /*.site-nav .item:last-child {
     margin-right: 0;}*/
@@ -105,20 +106,18 @@ h1,h2,h3,h4,h5,h6, p {
 
     font-weight: 500;    
     line-height: 1.14;
-    letter-spacing: 0.02em;
-
-   
-
+    letter-spacing: 0.02em; 
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+
 .site-nav .link.current {
     color: var(--accent-color)
 }
-  
-      
+        
 /*Ссылки-контакты*/
 .link-contacts .link {  
     display: block;
@@ -131,26 +130,32 @@ h1,h2,h3,h4,h5,h6, p {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .link-contacts .link:hover,
 .link-contacts .link:focus {
     color: var(--accent-color);    
 }
+
 .link-contacts {
    display: flex;
    padding-right: 0;
    padding-left: 0;
-}
+   margin-left: auto;
+
+   }
 
 .link-contacts .item {
-    
-    background-color: aquamarine;
+   
+background-color: aquamarine;      
+             
+        
 }
 
 /*.link-contacts .item:not(:last-child) {
     margin-right: 50;
 }*/
 .link-contacts .item + .item {
-    margin-left: 50px;
+margin-left: 50px;
 }
 
 
@@ -159,10 +164,8 @@ h1,h2,h3,h4,h5,h6, p {
 background-color: var(--accent-bg-color);
 text-align: center;
 padding-top: 200px;
-    padding-bottom: 200px;
-    
+padding-bottom: 200px;    
 }
-
 
 .hero-title {
   padding-bottom: 30px;  
@@ -346,6 +349,7 @@ padding-left: 0;
 }
 .footer .logo {
     color: var(--accent-text-color);
+    display: block;
 }
 
 .footer-adress {
@@ -355,8 +359,10 @@ padding-left: 0;
 }
 
 .footer-contacts .link {
+    display: block;
     color: rgba(255, 255, 255, 0.6);    
     line-height: 1.71;
+    padding-top: 9px;
     
 }
 
@@ -367,6 +373,16 @@ padding-left: 0;
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
     color: var(--accent-color);
+    }
+
+.footer-contacts {
+    display: block;
+    padding-bottom: 60px;
+    padding-left: 0;
+}
+.footer-logo {
+    padding-top: 60px;
+    padding-bottom: 22px;
 }
 
 
@@ -386,3 +402,28 @@ padding-left: 0;
     letter-spacing: 0.06em;
 }
 
+.portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aqua;
+        padding: 0;
+        gap: 30px;
+        margin-bottom: 30px;
+        
+        
+   /* flex-wrap: wrap;
+    gap: 30px;
+    width: calc((100% - 60px) / 3);*/
+}
+.portfolio-card {
+width: calc((100% - 60px) / 3);
+
+}
+.portfolio-card-description {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/*.portfolio-card:nth-child(3n) {
+padding-left:  0;
+}*/
