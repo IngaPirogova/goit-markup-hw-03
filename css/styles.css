@@ -244,14 +244,17 @@ text-align: center;
 
 /*Чем мы занимаемся*/
 .example {
-    background-color: coral;
+    background-color: coral;}
+
     
     
-}
+
 .example-title {
  margin-bottom: 50px;
 
       background-color: aquamarine;
+      outline: 2px solid white;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -259,7 +262,7 @@ text-align: center;
     text-align: center;
 }
 .example-list {
-
+display: flex;
 }
     
 .example-list .item {
