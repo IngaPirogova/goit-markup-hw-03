@@ -144,7 +144,7 @@ h1,h2,h3,h4,h5,h6 {
 background-color: var(--accent-bg-color);
 }
 
-.hero-div {
+/*.hero-div {
     display: inline-block;
     width: 1200px;
     padding-left: 15px;
@@ -156,7 +156,7 @@ background-color: var(--accent-bg-color);
     outline: 1px solid tomato;
     background-color: purple
     
-}
+}*/
 
 .hero-title {
    color: var(--accent-text-color);
@@ -167,7 +167,7 @@ background-color: var(--accent-bg-color);
     letter-spacing: 0.06em;
     text-transform: uppercase; 
 
-    padding: 200px 252px 0; 
+    
 
     }       
   
@@ -209,10 +209,7 @@ background-color: var(--accent-bg-color);
 
     display: inline-block;
     padding: 10px 32px;
-    margin-top: 30px;
-    margin-bottom: 200px;
-    
-}
+    }
     
 .hero-button:hover,
 .hero-button:focus {
