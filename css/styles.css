@@ -258,12 +258,17 @@ padding-top: 200px;
     letter-spacing: 0.03em;
     text-align: center;
 }
-.example-list {}
+.example-list {
+display: flex;
+/*flex-wrap: wrap;*/
+gap: 30px;
+calc((100% - 60px) / 3);
+}
 
 
     
 .example-list .item {
-display: flex;
+
 }
    
     
