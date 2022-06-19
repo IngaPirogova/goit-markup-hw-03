@@ -302,6 +302,7 @@ h1,h2,h3,h4,h5,h6, p {
   gap: 30px;
   width: calc((100% - 60px) / 3);
   padding-left: 0;
+  padding-bottom: 94px;
 }
 
 .team-list .team-card-description {
@@ -347,7 +348,7 @@ h1,h2,h3,h4,h5,h6, p {
 }
 .footer-logo {
     padding-top: 60px;
-    padding-bottom: 22px;
+    /*padding-bottom: 22px;*/
 }
 
 /*Стили для Портфолио*/
