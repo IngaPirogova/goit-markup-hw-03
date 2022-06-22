@@ -10,6 +10,11 @@
     --border-header-color: #ECECEC;
     --border-card-color: #EEEEEE;
 }
+img {
+display: block;
+max-width: 100%;
+height: auto;
+}
 
 body {
     color: var(--primary-text-color);
@@ -48,19 +53,16 @@ h1,h2,h3,h4,h5,h6, p {
     padding-bottom: 94px;
 }
 
-.img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+
 /*Шапка сайта*/
 .page-header { 
     border-bottom: 1px solid var(--border-header-color);
 }
-    
+
+  
 .logo {
-   /*padding-top: 24px;
-    padding-bottom: 25px;*/
+   padding-top: 24px;
+    padding-bottom: 25px;
     margin-right: 93px;
     
     color: var(--primary-text-color);
@@ -68,8 +70,9 @@ h1,h2,h3,h4,h5,h6, p {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;  
+        }
         
-}
+
 .logo-accent {
     color: var(--accent-color);
 }
@@ -325,12 +328,11 @@ h1,h2,h3,h4,h5,h6, p {
     padding-bottom: 60px;
 }
 
-
-.footer .logo {
+/*.footer .logo {
    color: var(--accent-text-color);
    display: block;
    margin-bottom: 20px;
-}
+}*/
 
 .footer-adress {
     color: var(--accent-text-color);    
@@ -358,6 +360,20 @@ h1,h2,h3,h4,h5,h6, p {
     padding-left: 0;
 }
 
+.logo-footer {
+   
+    margin-right: 93px;
+
+    color: var(--primary-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    color: var(--accent-text-color);
+        display: block;
+        margin-bottom: 20px;
+}
 
 /*Стили для Портфолио*/
 
