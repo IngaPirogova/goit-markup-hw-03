@@ -10,10 +10,10 @@
     --border-header-color: #ECECEC;
     --border-card-color: #EEEEEE;
 }
-img {
-display: block;
-max-width: 100%;
-height: auto;
+ img {
+   display: block;
+   max-width: 100%;
+   height: auto;
 }
 
 body {
@@ -245,14 +245,14 @@ h1,h2,h3,h4,h5,h6, p {
 
 .feature-list .item {
     color: var(--secondary-text-color);
-    line-height: 1.71; 
-    flex-basis: calc((100% - 90px) / 4);    
-    }
+    line-height: 1.71; }
+    /*flex-basis: calc((100% - 90px) / 4);    
+    }*/
 
 /*Чем мы занимаемся*/
 
 .example {
-  padding-top: 0px;
+      padding-top: 0px;
  }
    
 .example-title {
@@ -268,8 +268,8 @@ h1,h2,h3,h4,h5,h6, p {
 .example-list {
     display: flex; 
     gap: 30px;
-    width: calc((100% - 60px) / 3);
-    padding-left: 0;
+   /* width: calc((100% - 60px) / 3);
+    padding-left: 0;*/
 }
    
 /*Наша команда*/
@@ -287,8 +287,8 @@ h1,h2,h3,h4,h5,h6, p {
 }
 .team-card {
     background-color: var(--accent-text-color);
-    width: 270px;
-    height: 368px;
+    /*width: 270px;
+    height: 368px;*/
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;     
 }
@@ -311,8 +311,8 @@ h1,h2,h3,h4,h5,h6, p {
 .team-list {
   display: flex;
   gap: 30px;
-  width: calc((100% - 60px) / 3);
-  padding-left: 0;
+  /*width: calc((100% - 60px) / 3);
+  padding-left: 0;*/
   
 }
 
@@ -328,11 +328,6 @@ h1,h2,h3,h4,h5,h6, p {
     padding-bottom: 60px;
 }
 
-/*.footer .logo {
-   color: var(--accent-text-color);
-   display: block;
-   margin-bottom: 20px;
-}*/
 
 .footer-adress {
     color: var(--accent-text-color);    
